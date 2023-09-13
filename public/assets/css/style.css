@@ -1,0 +1,30 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* ===================== Navbar */
+.nav {
+    width: 50px;
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: blue;
+    position: fixed;
+    right: 10px;
+    top: 36%;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li i {
+    font-size: 2rem;
+}
