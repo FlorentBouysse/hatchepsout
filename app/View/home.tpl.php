@@ -14,8 +14,6 @@
          ==================================== Header 
          ==================================== Navbar 
         -->
-
-        
         <nav class="nav">
             <ul>
                 <li><i class="fa-solid fa-house"></i></li>
@@ -24,6 +22,14 @@
             </ul>
         </nav>
         <!-- ==================================== Home -->
+        <header class="container__home">
+            <div class="background_home">
+                <h1>Hatchepsout</h1>
+            </div>
+        </header>
+
+        <!-- ==================================== Article -->
+        <main></main>
 
     </div>
 </body>
