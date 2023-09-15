@@ -21,7 +21,9 @@
                 <li><i class="fa-solid fa-images"></i></li>
             </ul>
         </nav>
+
         <!-- ==================================== Home -->
+
         <header class="container__home">
             <div class="background_home">
                 <h1>Hatchepsout</h1>
@@ -29,7 +31,28 @@
         </header>
 
         <!-- ==================================== Article -->
-        <main></main>
+
+        <main>
+            <div class="container__article">
+                <div class="container__title">
+                    <h2 class="article__title">Biographie</h2>
+                    <div class="bar"></div>
+                </div>
+                <article class="article">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aperiam in? Asperiores id eveniet natus accusantium ratione error ullam debitis vero possimus. Nemo nostrum totam amet excepturi cupiditate quibusdam placeat porro eum alias! Itaque aspernatur explicabo numquam adipisci quasi quaerat laudantium ab assumenda totam excepturi voluptatibus, iusto impedit possimus harum dolore laborum quam nostrum optio eum maiores facilis quo quae. Cum magnam nesciunt voluptatem iure consequuntur, illo, quidem odio iusto porro vel dolorem est libero impedit ex vero, adipisci ratione voluptas recusandae. Aperiam hic doloremque quod. Illum aliquid commodi officia odit incidunt molestias eos, reprehenderit earum impedit, dolor a accusamus voluptas beatae. Placeat porro sit explicabo quidem rerum earum ullam voluptatem saepe consequatur ipsam impedit, sunt asperiores enim minima magnam. Odio, quas ratione. Labore ipsam, ut quasi et suscipit illo atque dolores quis sed officiis numquam ipsum accusantium id voluptates incidunt dolorem eius dicta, enim quo quisquam, necessitatibus nemo error exercitationem minima. Molestiae dicta, dolores fugiat dolor vero qui reprehenderit maiores hic eos quasi quo facere harum tempora provident cum aliquam facilis vitae magni aperiam nihil ea tempore, dolorem sint fuga. Dolorem necessitatibus accusantium repudiandae fugiat officia nihil quas ipsam saepe nesciunt quod doloremque numquam esse eius qui, dicta est doloribus libero, deleniti maiores vel nisi omnis maxime enim similique! Soluta, corrupti incidunt. Officia sint distinctio exercitationem. Aspernatur dolores esse quia veritatis ullam eum accusamus quis delectus unde, nobis aperiam, ex sit libero animi? Maiores tempore voluptate illum ipsum velit corrupti a, vel nesciunt consequuntur tenetur, reiciendis placeat. Rerum, odit. Ex ullam doloribus modi repudiandae possimus voluptas deserunt tenetur tempore obcaecati quos sunt, inventore necessitatibus. Iusto reprehenderit aliquam placeat, tenetur veritatis, dolorem eos quisquam suscipit veniam minus explicabo esse accusantium quas ea nihil dolor beatae alias harum, inventore debitis minima voluptatem necessitatibus. Quidem distinctio at praesentium rem recusandae obcaecati maiores!
+                    </p>
+                    <div class="card">
+                        <div class="img__card"></div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, nisi.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            
+
+        </main>
 
     </div>
 </body>
