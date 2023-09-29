@@ -16,15 +16,15 @@
         -->
         <nav class="nav">
             <ul>
-                <li><i class="fa-solid fa-house"></i></li>
-                <li><i class="fa-solid fa-newspaper"></i></li>
-                <li><i class="fa-solid fa-images"></i></li>
+                <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#article"><i class="fa-solid fa-newspaper"></i></a></li>
+                <li><a href="#galery"><i class="fa-solid fa-images"></i></a></li>
             </ul>
         </nav>
 
         <!-- ==================================== Home -->
 
-        <header class="container__home">
+        <header class="container__home" id="home">
             <div class="background_home">
                 <h1>Hatchepsout</h1>
             </div>
@@ -33,7 +33,7 @@
         <!-- ==================================== Article -->
 
         <main>
-            <section class="container__article">
+            <section class="container__article" id="article">
                 <div class="container__title">
                     <h2 class="article__title">Biographie</h2>
                     <div class="bar"></div>
@@ -53,7 +53,7 @@
             
             <!-- ================================ Galery -->
 
-            <section class="container__galery">
+            <section class="container__galery" id="galery">
                 <div class="container__title">
                     <h2 class="article__title">Galery</h2>
                     <div class="bar"></div>

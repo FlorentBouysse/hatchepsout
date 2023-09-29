@@ -1,14 +1,15 @@
 body {
-    background-color: gray;
+    background-color: rgb(255, 228, 197);
 }
 
 
 .container {
     width: 70vw;
     height: 100vh;
-
-    background: black;
     margin: auto;
+    padding: 0 15vw;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 /* ========================================== */
 /* ===================== Navbar */
@@ -20,7 +21,7 @@ body {
     border-radius: 30px;
 
     position: fixed;
-    right: 10px;
+    right: 20px;
     top: 36%;
 }
 
@@ -40,6 +41,7 @@ body {
 }
 
 .nav ul li i {
+    color: black;
     font-size: 2rem;
     cursor: pointer;
     transition: all .5s;
@@ -58,6 +60,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    scroll-snap-align: center;
 }
 
 .background_home {
@@ -71,6 +74,7 @@ body {
     display: flex;
     align-items: end;
     justify-content: center;
+    border-radius: 20px;
 }
 
 h1 {
@@ -102,6 +106,7 @@ main {
 .container__article {
     height: 100vh;
     width: 100%;
+    scroll-snap-align: center;
 }
 
 .container__title {
@@ -118,8 +123,8 @@ main {
     margin: 0;
 
     text-shadow: 0 0 20px lightgray;
-    border-top: 5px aliceblue solid;
-    border-bottom: 5px aliceblue solid;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
     border-radius: 20px;
 }
 
@@ -127,8 +132,8 @@ main {
     width: 30%;
     margin: 1rem 0;
 
-    border-top: 3px aliceblue solid;
-    border-bottom: 3px aliceblue solid;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
     border-radius: 20px;
 }
 
@@ -175,8 +180,13 @@ main {
 /* ======================== Galeries */
 /* ========================================== */
 .container__galery {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
     width: 100%;
+    scroll-snap-align: center;
+}
+
+.container__galery .container__title {
+    margin-top: -1rem;
 }
 
 .grid__img {
@@ -242,7 +252,9 @@ main {
 
 .modal {
     height: 70vh;
-    position: absolute;
+    position: fixed;
+    top: 10%;
+    left: 10%;
 }
 
 /* ========================================== */
@@ -261,5 +273,6 @@ footer {
 
     display: flex;
     justify-content: center;
-    align-items: center;
+
+    padding-top: 10px;
 }
