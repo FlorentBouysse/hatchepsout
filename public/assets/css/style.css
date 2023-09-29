@@ -133,6 +133,7 @@ main {
 }
 
 .article {
+    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,6 +143,8 @@ main {
     width: 60%;
     border-right: 2px black solid;
     border-radius: 20px;
+    
+    padding-right: 2rem;
 }
 
 .article .card {
@@ -149,6 +152,7 @@ main {
     height: 35vh;
     border: 2px black solid;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .img__card {
@@ -176,6 +180,7 @@ main {
 }
 
 .grid__img {
+    padding: 0 2rem;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 4fr 1fr 4fr;
@@ -222,11 +227,22 @@ main {
     justify-content: center;
 
     overflow: hidden;
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: all .5s;
+}
+
+.size:hover {
+    transform: scale(1.1);
 }
 
 .img {
     height: 250px;
     border-radius: 5px;
+}
+
+.modal {
+    height: 70vh;
+    position: absolute;
 }
 
 /* ========================================== */

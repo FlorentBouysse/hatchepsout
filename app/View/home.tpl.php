@@ -63,19 +63,19 @@
                         <img class="img" src="./assets/images/temple.jpg" alt="">
                     </div>
                     <div class="size grid__2">
-                    <img class="img" src="./assets/images/temple2.jpg" alt="">
+                        <img class="img" src="./assets/images/temple2.jpg" alt="">
                     </div>
                     <div class="size grid__3">
-                    <img class="img" src="./assets/images/temple_int.jpg" alt="">
+                        <img class="img" src="./assets/images/temple_int.jpg" alt="">
                     </div>
                     <div class="size grid__4">
-                    <img class="img" src="./assets/images/hatchepsout_tete.jpeg" alt="">
+                        <img class="img" src="./assets/images/hatchepsout_tete.jpeg" alt="">
                     </div>
                     <div class="size grid__5">
-                    <img class="img" src="./assets/images/hatchepsout.jpg" alt="">
+                        <img class="img" src="./assets/images/hatchepsout.jpg" alt="">
                     </div>
                     <div class="size grid__6">
-                    <img class="img" src="./assets/images/hatchepsout2.jpg" alt="">
+                        <img class="img" src="./assets/images/hatchepsout2.jpg" alt="">
                     </div>
                 </div>
             </section>
@@ -87,5 +87,6 @@
         </footer>
 
     </div>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
