@@ -33,7 +33,7 @@
         <!-- ==================================== Article -->
 
         <main>
-            <div class="container__article">
+            <section class="container__main">
                 <div class="container__title">
                     <h2 class="article__title">Biographie</h2>
                     <div class="bar"></div>
@@ -49,8 +49,24 @@
                         </p>
                     </div>
                 </article>
-            </div>
+            </section>
             
+            <!-- ================================ Galery -->
+
+            <section class="container__main">
+                <div class="container__title">
+                    <h2 class="article__title">Galery</h2>
+                    <div class="bar"></div>
+                </div>
+                <div class="grid__img">
+                    <img class="img grid__1" src="./assets/images/temple.jpg" alt="">
+                    <img class="img grid__2" src="./assets/images/temple.jpg" alt="">
+                    <img class="img grid__3" src="./assets/images/temple.jpg" alt="">
+                    <img class="img grid__4" src="./assets/images/temple.jpg" alt="">
+                    <img class="img grid__5" src="./assets/images/temple.jpg" alt="">
+                    <img class="img grid__6" src="./assets/images/temple.jpg" alt="">
+                </div>
+            </section>
 
         </main>
 
