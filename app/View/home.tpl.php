@@ -59,12 +59,24 @@
                     <div class="bar"></div>
                 </div>
                 <div class="grid__img">
-                    <img class="img grid__1" src="./assets/images/temple.jpg" alt="">
-                    <img class="img grid__2" src="./assets/images/temple.jpg" alt="">
-                    <img class="img grid__3" src="./assets/images/temple.jpg" alt="">
-                    <img class="img grid__4" src="./assets/images/temple.jpg" alt="">
-                    <img class="img grid__5" src="./assets/images/temple.jpg" alt="">
-                    <img class="img grid__6" src="./assets/images/temple.jpg" alt="">
+                    <div class="size grid__1">
+                        <img class="img" src="./assets/images/temple.jpg" alt="">
+                    </div>
+                    <div class="size grid__2">
+                    <img class="img" src="./assets/images/temple2.jpg" alt="">
+                    </div>
+                    <div class="size grid__3">
+                    <img class="img" src="./assets/images/temple_int.jpg" alt="">
+                    </div>
+                    <div class="size grid__4">
+                    <img class="img" src="./assets/images/hatchepsout_tete.jpeg" alt="">
+                    </div>
+                    <div class="size grid__5">
+                    <img class="img" src="./assets/images/hatchepsout.jpg" alt="">
+                    </div>
+                    <div class="size grid__6">
+                    <img class="img" src="./assets/images/hatchepsout2.jpg" alt="">
+                    </div>
                 </div>
             </section>
 
