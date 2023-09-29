@@ -33,7 +33,7 @@
         <!-- ==================================== Article -->
 
         <main>
-            <section class="container__main">
+            <section class="container__article">
                 <div class="container__title">
                     <h2 class="article__title">Biographie</h2>
                     <div class="bar"></div>
@@ -53,7 +53,7 @@
             
             <!-- ================================ Galery -->
 
-            <section class="container__main">
+            <section class="container__galery">
                 <div class="container__title">
                     <h2 class="article__title">Galery</h2>
                     <div class="bar"></div>
@@ -81,6 +81,10 @@
             </section>
 
         </main>
+
+        <footer>
+            Devcode@2023
+        </footer>
 
     </div>
 </body>

@@ -99,7 +99,7 @@ main {
     align-items: center;
 }
 
-.container__main {
+.container__article {
     height: 100vh;
     width: 100%;
 }
@@ -170,11 +170,15 @@ main {
 /* ========================================== */
 /* ======================== Galeries */
 /* ========================================== */
+.container__galery {
+    height: calc(100vh - 50px);
+    width: 100%;
+}
 
 .grid__img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 3fr 1fr 3fr;
+    grid-template-rows: 4fr 1fr 4fr;
 }
 
 .grid__1 {
@@ -223,4 +227,23 @@ main {
 .img {
     height: 250px;
     border-radius: 5px;
+}
+
+/* ========================================== */
+/* ======================== Footer */
+/* ========================================== */
+
+footer {
+    height: 50px;
+    width: 100%;
+
+    background-color: black;
+    color: aliceblue;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
