@@ -1,14 +1,15 @@
 body {
-    background-color: gray;
+    background-color: rgb(255, 228, 197);
 }
 
 
 .container {
     width: 70vw;
     height: 100vh;
-
-    background: black;
     margin: auto;
+    padding: 0 15vw;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 /* ========================================== */
 /* ===================== Navbar */
@@ -20,7 +21,7 @@ body {
     border-radius: 30px;
 
     position: fixed;
-    right: 10px;
+    right: 20px;
     top: 36%;
 }
 
@@ -40,6 +41,7 @@ body {
 }
 
 .nav ul li i {
+    color: black;
     font-size: 2rem;
     cursor: pointer;
     transition: all .5s;
@@ -58,6 +60,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    scroll-snap-align: center;
 }
 
 .background_home {
@@ -71,6 +74,7 @@ body {
     display: flex;
     align-items: end;
     justify-content: center;
+    border-radius: 20px;
 }
 
 h1 {
@@ -93,21 +97,24 @@ h1 {
 /* ========================================== */
 
 main {
-    height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .container__article {
-    height: 85vh;
+    height: 100vh;
     width: 100%;
+    scroll-snap-align: center;
 }
 
 .container__title {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin: 1rem 0;
 }
 
 .article__title {
@@ -116,8 +123,8 @@ main {
     margin: 0;
 
     text-shadow: 0 0 20px lightgray;
-    border-top: 5px aliceblue solid;
-    border-bottom: 5px aliceblue solid;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
     border-radius: 20px;
 }
 
@@ -125,12 +132,13 @@ main {
     width: 30%;
     margin: 1rem 0;
 
-    border-top: 3px aliceblue solid;
-    border-bottom: 3px aliceblue solid;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
     border-radius: 20px;
 }
 
 .article {
+    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,6 +148,8 @@ main {
     width: 60%;
     border-right: 2px black solid;
     border-radius: 20px;
+    
+    padding-right: 2rem;
 }
 
 .article .card {
@@ -147,6 +157,7 @@ main {
     height: 35vh;
     border: 2px black solid;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .img__card {
@@ -163,4 +174,105 @@ main {
 
 .article .card p {
     padding: 0.5rem;
+}
+
+/* ========================================== */
+/* ======================== Galeries */
+/* ========================================== */
+.container__galery {
+    height: calc(100vh - 70px);
+    width: 100%;
+    scroll-snap-align: center;
+}
+
+.container__galery .container__title {
+    margin-top: -1rem;
+}
+
+.grid__img {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 4fr 1fr 4fr;
+}
+
+.grid__1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.grid__2 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.grid__3 {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.grid__4 {
+    grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.grid__5 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.grid__6 {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+}
+
+.size {
+    height: 250px;
+    width: 300px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    overflow: hidden;
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: all .5s;
+}
+
+.size:hover {
+    transform: scale(1.1);
+}
+
+.img {
+    height: 250px;
+    border-radius: 5px;
+}
+
+.modal {
+    height: 70vh;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+}
+
+/* ========================================== */
+/* ======================== Footer */
+/* ========================================== */
+
+footer {
+    height: 50px;
+    width: 100%;
+
+    background-color: black;
+    color: aliceblue;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 10px;
 }
