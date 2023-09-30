@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <div class="container">
         <!-- 
@@ -39,18 +41,35 @@
                     <div class="bar"></div>
                 </div>
                 <article class="article">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aperiam in? Asperiores id eveniet natus accusantium ratione error ullam debitis vero possimus. Nemo nostrum totam amet excepturi cupiditate quibusdam placeat porro eum alias! Itaque aspernatur explicabo numquam adipisci quasi quaerat laudantium ab assumenda totam excepturi voluptatibus, iusto impedit possimus harum dolore laborum quam nostrum optio eum maiores facilis quo quae. Cum magnam nesciunt voluptatem iure consequuntur, illo, quidem odio iusto porro vel dolorem est libero impedit ex vero, adipisci ratione voluptas recusandae. Aperiam hic doloremque quod. Illum aliquid commodi officia odit incidunt molestias eos, reprehenderit earum impedit, dolor a accusamus voluptas beatae. Placeat porro sit explicabo quidem rerum earum ullam voluptatem saepe consequatur ipsam impedit, sunt asperiores enim minima magnam. Odio, quas ratione. Labore ipsam, ut quasi et suscipit illo atque dolores quis sed officiis numquam ipsum accusantium id voluptates incidunt dolorem eius dicta, enim quo quisquam, necessitatibus nemo error exercitationem minima. Molestiae dicta, dolores fugiat dolor vero qui reprehenderit maiores hic eos quasi quo facere harum tempora provident cum aliquam facilis vitae magni aperiam nihil ea tempore, dolorem sint fuga. Dolorem necessitatibus accusantium repudiandae fugiat officia nihil quas ipsam saepe nesciunt quod doloremque numquam esse eius qui, dicta est doloribus libero, deleniti maiores vel nisi omnis maxime enim similique! Soluta, corrupti incidunt. Officia sint distinctio exercitationem. Aspernatur dolores esse quia veritatis ullam eum accusamus quis delectus unde, nobis aperiam, ex sit libero animi? Maiores tempore voluptate illum ipsum velit corrupti a, vel nesciunt consequuntur tenetur, reiciendis placeat. Rerum, odit. Ex ullam doloribus modi repudiandae possimus voluptas deserunt tenetur tempore obcaecati quos sunt, inventore necessitatibus. Iusto reprehenderit aliquam placeat, tenetur veritatis, dolorem eos quisquam suscipit veniam minus explicabo esse accusantium quas ea nihil dolor beatae alias harum, inventore debitis minima voluptatem necessitatibus. Quidem distinctio at praesentium rem recusandae obcaecati maiores!
-                    </p>
+                    <div class="paragraphe">
+                        <p>
+                            Hatchepsout, également orthographiée Hatchepsut, était l'une des rares femmes de l'Égypte ancienne à régner en tant que pharaon. Elle est née vers 1507 avant J.-C., dans une période marquée par des luttes pour le pouvoir en Égypte. Elle était la fille de Thoutmôsis Ier et de la reine Ahmès.
+                        </p>
+                        <p>
+                            Hatchepsout est devenue reine consort lorsqu'elle a épousé son demi-frère Thoutmôsis II, qui est monté sur le trône d'Égypte après la mort de Thoutmôsis Ier. Après la mort de Thoutmôsis II, leur fils, Thoutmôsis III, était trop jeune pour gouverner, ce qui a ouvert la voie à Hatchepsout pour devenir régente. Cependant, elle a rapidement assumé le rôle de pharaon et est devenue l'une des dirigeantes les plus influentes de l'Égypte ancienne.
+                        </p>
+                        <p>
+                            L'un des aspects les plus remarquables du règne d'Hatchepsout était sa décision de se faire couronner pharaon, portant la tenue traditionnelle masculine, y compris la fausse barbe. Elle a régné pendant plus de vingt ans, de 1479 à 1458 avant J.-C., une période de stabilité et de prospérité pour l'Égypte.
+                        </p>
+                        <p>
+                            Sous son règne, l'Égypte a connu une série d'expéditions commerciales et militaires, notamment une célèbre expédition en terre de Pount (une région probablement située en Érythrée ou en Éthiopie), au cours de laquelle des richesses et des marchandises rares ont été ramenées en Égypte. Elle a également supervisé de nombreux projets de construction, y compris le temple de Deir el-Bahari, un complexe funéraire impressionnant situé sur la rive ouest du Nil à Thèbes.
+                        </p>
+                        <p>
+                            Hatchepsout est décédée vers 1458 avant J.-C., et son règne a été suivi par une période de règne conjoint avec Thoutmôsis III, son beau-fils, jusqu'à sa propre mort. Malheureusement, de nombreuses preuves de son règne ont été effacées par son successeur, peut-être pour effacer le souvenir d'une femme au pouvoir, mais des recherches modernes ont permis de découvrir davantage d'informations sur cette reine-pharaon remarquable.
+                        </p>
+                        <p>
+                            Hatchepsout reste l'une des figures les plus fascinantes de l'Égypte ancienne, à la fois en raison de sa montée au pouvoir en tant que femme et de ses réalisations durant son règne. Sa contribution à l'histoire de l'Égypte ancienne est incontestable.
+                        </p>
+                    </div>
                     <div class="card">
                         <div class="img__card"></div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, nisi.
+                            Photo d'une des sculptures à l'effigie d'Hatchepsout ce trouvant au Musée national des Antiquités des Pays-Bas, Leyde
                         </p>
                     </div>
                 </article>
             </section>
-            
+
             <!-- ================================ Galery -->
 
             <section class="container__galery" id="galery">
@@ -89,4 +108,5 @@
     </div>
     <script src="./assets/js/app.js"></script>
 </body>
+
 </html>

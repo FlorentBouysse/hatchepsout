@@ -144,7 +144,7 @@ main {
     align-items: center;
 }
 
-.article p:first-child {
+.article .paragraphe {
     width: 60%;
     border-right: 2px black solid;
     border-radius: 20px;
@@ -154,7 +154,7 @@ main {
 
 .article .card {
     width: 25%;
-    height: 35vh;
+    height: 45vh;
     border: 2px black solid;
     border-radius: 10px;
     box-shadow: 5px 5px 15px 5px #000000;
@@ -167,7 +167,7 @@ main {
     border-top-right-radius: 8px;
     
     background-image: url(../images/hatchepsout.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -180,14 +180,14 @@ main {
 /* ======================== Galeries */
 /* ========================================== */
 .container__galery {
-    height: calc(100vh - 70px);
+    height: 100vh;
     width: 100%;
     scroll-snap-align: center;
 }
 
-.container__galery .container__title {
+/* .container__galery .container__title {
     margin-top: -1rem;
-}
+} */
 
 .grid__img {
     padding: 0 2rem;
@@ -242,19 +242,12 @@ main {
 }
 
 .size:hover {
-    transform: scale(1.1);
+    transform: scale(2.2);
 }
 
 .img {
     height: 250px;
     border-radius: 5px;
-}
-
-.modal {
-    height: 70vh;
-    position: fixed;
-    top: 10%;
-    left: 10%;
 }
 
 /* ========================================== */
@@ -273,6 +266,7 @@ footer {
 
     display: flex;
     justify-content: center;
+    align-items: center;
 
-    padding-top: 10px;
+    margin-top: -50px;
 }
